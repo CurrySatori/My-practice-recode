@@ -8,10 +8,10 @@ int main()
     int b = 10001;
     printf("%d\n",b);
     //长整型long 32位有10位数 4B,64位有19位数 8B
-    long c = 10086;
+    long c = 10086L;
     printf("%ld\n",c);
     //超长整型long^2 有19位数 8B
-    long long d = 1145141919810;
+    long long d = 1145141919810LL;
     printf("%lld\n",d);
     //sizeof测量大小
     printf("%d---%zu\n",a,sizeof(a));
